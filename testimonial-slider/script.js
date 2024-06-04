@@ -5,7 +5,6 @@ var arrowDown = document.getElementById("arrow-down");
 let x = 0;
 
 arrowUp.onclick = function() {
-    debugger
    if (x > -900) {
     x = x - 300; // because card height is 300px 
     slide.style.top = x + "px";
@@ -14,7 +13,6 @@ arrowUp.onclick = function() {
 }
 
 arrowDown.onclick = function() {
-    debugger
    if (x < 0) {
     x = x + 300; // because card height is 300px 
     slide.style.top = x + "px";
